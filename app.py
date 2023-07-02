@@ -15,5 +15,10 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
-sample_csv = pd.read_csv('sample.csv', encoding='cp949')
+
+csv_url = 'https://raw.githubusercontent.com/2015DalKong/repo/master/sample.csv'
+# 으로
+# /owner/edit/main/sample.csv
+
+sample_csv = pd.read_csv(csv_url, encoding='cp949')
 sample_csv
