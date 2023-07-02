@@ -14,3 +14,6 @@ st.bar_chart(view1)
 import pandas as pd
 sview = pd.Series(view)
 sview
+
+sample_csv = pd.read_csv('sample.csv', encoding='cp949')
+sample_csv
